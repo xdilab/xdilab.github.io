@@ -201,11 +201,11 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 100px; /* 40 */
+  max-height: 70px; /* 40 */
 }
 
 .scrolled-offset {
-  margin-top: 130px; /* 70 200 out*/
+  margin-top: 70px; /* 70 200 out*/
 }
 
 /*--------------------------------------------------------------
