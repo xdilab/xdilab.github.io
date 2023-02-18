@@ -603,7 +603,7 @@ section {
   background-color: #e9ffe8;
 }
 .section-bg-gray {
-  background-color: #e3e3e3;
+  background-color: #f0f0f0; <!-- #e3e3e3; -->
 }
 
 .section-title {
