@@ -599,6 +599,12 @@ section {
 .section-bg {
   background-color: #edf2fa; /* light #f6f9fe;   dark   #d7e2f5      mid? #ebf2ff*/
 }
+.section-bg-green {
+  background-color: #e9ffe8;
+}
+.section-bg-gray {
+  background-color: #cfcfcf;
+}
 
 .section-title {
   text-align: center;
