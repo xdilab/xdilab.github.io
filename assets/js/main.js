@@ -285,4 +285,40 @@
    */
   new PureCounter();
 
+  const heroSection = document.querySelector('#hero');
+  const bgImages = [
+    'img/ncat_3_c.jpg',
+    'img/Pic_Poster_Ehsan_e.png',
+    'img/Pic_Poster_Rebekah_e.jpg',
+    'img/Pic_Poster_Stefen_4_e.jpg',
+  ];
+  let bgIndex = 0;
+
+  function rotateHeroBackground() {
+    bgIndex = (bgIndex + 1) % bgImages.length;
+    heroSection.style.backgroundImage = `url("${bgImages[bgIndex]}")`;
+  }
+  setInterval(rotateHeroBackground, 5000); // Rotate every 5 seconds
+
+
+  new Swiper('.hero-swiper', {
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    effect: 'fade'
+  });
+  
+  
+
+
 })()

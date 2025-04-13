@@ -88,16 +88,38 @@
   </header><!-- End Header -->
 
   <!-- ======= Home  ======================================================================================================================= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1 style="color:gray;">Welcome to </h1> <h1 style="color:red;">eXplainable </h1> <h1 style="color:black;">Deep</h1> <h1 style="color:blue;">Intelligence</h1> <h1 style="color:gray;"> Lab </h1>
-      <!-- <h2>We are team of talented designers making websites with Bootstrap</h2>-->
-      <div class="d-flex">
-        <a href="#news" class="btn-get-started scrollto">News!</a>
-        <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+  <section id="hero" class="d-flex align-items-center position-relative">
+    <!-- Swiper Background -->
+    <div class="swiper hero-swiper position-absolute w-100 h-100" style="z-index: 1;">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('img/ncat_3_c.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('img/Pic_Poster_Ehsan_e.png');"></div>
+        <div class="swiper-slide" style="background-image: url('img/Pic_Poster_Rebekah_e.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('img/Pic_Poster_Stefen_4_e.jpg');"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  
+    <!-- White overlay (fix pointer blocking) -->
+<div class="position-absolute w-100 h-100" style="background: rgba(255, 255, 255, 0.6); z-index: 2; pointer-events: none;"></div>
+
+  
+    <!-- Hero Text -->
+    <div class="container text-start" style="z-index: 3;" data-aos="zoom-out" data-aos-delay="100">
+      <h1 style="color:gray;">Welcome to </h1> 
+      <h1 style="color:red;">eXplainable </h1> 
+      <h1 style="color:black;">Deep</h1> 
+      <h1 style="color:blue;">Intelligence</h1> 
+      <h1 style="color:gray;"> Lab </h1>
+      <div class="d-flex justify-content-start">
+        <a href="#news" class="btn-get-started scrollto ms-1">News!</a>
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  
+  
 
   <main id="main">
 
@@ -645,6 +667,22 @@
             </div>
             <div class="member-info">
               <h4>David Williams</h4>
+              <span>Graduate Research Assistant</span>
+              <span>North Carolina A&T State University</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <div class="member">
+            <div class="member-img">
+              <img src="team/Jonathan.jpeg" class="img-fluid" alt="">  <!-- =========================== # 9 =========================== -->
+              <div class="social">
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Jonathan Stevens</h4>
               <span>Graduate Research Assistant</span>
               <span>North Carolina A&T State University</span>
             </div>
