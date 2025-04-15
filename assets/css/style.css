@@ -1857,3 +1857,9 @@ section {
   z-index: 4;
 }
 
+.portfolio-item img {
+  /*height: 230px; */ /* tweak to match visual preference */
+  object-fit: cover;
+  width: 100%;
+}
+
