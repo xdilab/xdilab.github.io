@@ -1863,3 +1863,13 @@ section {
   width: 100%;
 }
 
+/* Fade effect for past presentations */
+.past-presentation {
+  opacity: 0.5;
+  background-color: #f0f0f0; /* matches your section-bg-gray */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.past-presentation:hover {
+  opacity: 0.8; /* a bit clearer on hover */
+}
